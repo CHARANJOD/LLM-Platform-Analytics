@@ -17,11 +17,11 @@ AI & LLM Usage Analytics
 ## Objectives
 
 - Analyze user engagement and usage patterns.
-- Understand product and feature adoption.
+- Analyze product adoption and platform usage patterns.
 - Monitor platform operational performance.
 - Identify failure patterns and reliability issues.
 - Analyze token consumption and platform costs.
-- Evaluate response quality and user satisfaction.
+- Evaluate response quality and feedback-related metrics.
 - Identify actionable business insights and recommendations.
 
 ## Dataset
@@ -61,6 +61,20 @@ All four datasets retained their original row counts after cleaning. No rows wer
 - Power BI – Interactive dashboard development
 - CSV – Dataset storage
 - Git/GitHub – Project version control and documentation
+
+## Project Structure
+
+```text
+LLM-Platform-Analytics/
+├── dashboards/     # Power BI dashboard
+├── data/           # Project datasets
+├── docs/           # Project documentation
+├── images/         # Dashboard screenshots
+├── notebooks/      # Python analysis notebooks
+├── sql/            # SQL analysis scripts
+├── README.md       # Project overview
+└── LICENSE         # Project license
+```
 
 ## Dashboard Structure
 
@@ -128,7 +142,7 @@ The page connects dashboard findings with opportunities related to:
 
 Analyzes users, sessions, interactions, time-based activity, and engagement patterns.
 
-### Product Adoption Analysis
+### Product Adoption & Usage Analysis
 
 Analyzes models, channels, use cases, account tiers, segments, and platform usage patterns.
 
@@ -142,7 +156,7 @@ Analyzes token consumption, interaction costs, session costs, and cost trends.
 
 ### User Experience Analysis
 
-Analyzes response quality, feedback, and satisfaction-related metrics.
+Analyzes response quality and feedback-related metrics.
 
 ### Geographic & Customer Segment Analysis
 
@@ -192,6 +206,8 @@ The dashboard transforms raw telemetry data into KPIs, trends, business insights
 - Power BI Dashboard
 - SQL analysis files
 - Python data preparation files
+- Project Documentation
+- Project Presentation
 - Project README
 
 ## Conclusion
