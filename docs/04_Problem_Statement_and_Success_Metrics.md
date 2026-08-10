@@ -46,18 +46,23 @@ Analyze user engagement, product adoption, and operational performance across an
 
 ---
 
-## Success Metrics (KPIs)
+## Success Metrics
 
-| Business Objective | KPI |
-|--------------------|--------------------------------|
-| Improve User Engagement | Average Sessions per User |
-| Increase Product Adoption | Feature Adoption Rate |
-| Optimize Operational Performance | Average Response Latency |
-| Reduce Platform Costs | Average Cost per Interaction |
-| Improve User Satisfaction | Average User Feedback Score |
-| Monitor Reliability | Failure Rate |
-| Analyze Usage Trends | Total Interactions and Sessions |
-| Support Business Decisions | Dashboard with Actionable Insights |
+The project evaluates success using a combination of project-level business metrics and dashboard KPIs. Not every project-level metric is required to appear as a dedicated KPI card; some are analyzed through supporting visualizations and underlying data.
+
+| Success Metric | Dashboard Representation | Status |
+|---|---|---|
+| Average Sessions per User | User Engagement page – KPI card | Included |
+| Feature Adoption Rate | Analyzed through user segments, account tiers, channels and usage patterns | Supporting analysis |
+| Average Response Latency | Operational Performance page – KPI card and latency trend | Included |
+| Average Cost per Interaction | Operational cost analysis and cost trend | Supporting analysis |
+| Average User Feedback Score | Response Quality and feedback-related analysis | Supporting analysis |
+| Failure Rate | Operational Performance page – KPI card and failure analysis | Included |
+| Total Interactions & Sessions | Executive Overview – KPI cards | Included |
+
+### Metric Interpretation
+
+The dashboard prioritizes the most decision-relevant KPIs for executive monitoring while supporting the remaining success metrics through detailed visualizations and analysis. This approach keeps the dashboard focused and avoids overcrowding it with too many KPI cards.
 
 ---
 

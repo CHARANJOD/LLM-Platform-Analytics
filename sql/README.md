@@ -8,7 +8,7 @@ This folder contains all SQL scripts developed during the SQL phase of the proje
 Creates and selects the project database.
 
 ### 02_schema.sql
-Creates tables and imports the cleaned dataset.
+Defines and applies the database schema for the cleaned datasets, including primary-key constraints and table structure.
 
 ### 03_validation.sql
 Validates imported data using row counts, table checks, and schema verification.

@@ -31,6 +31,8 @@ LLM Platform Analytics: User Engagement, Product Adoption & Operational Performa
 | failure_type | String | Failure reason | Reliability |
 | user_feedback_score | Float | User rating | Feedback |
 | user_feedback_label | String | Feedback category | Feedback |
+| tool_calls_count | Integer | Number of tool calls made during the interaction | Tool Usage |
+| tokens_per_second | Float | Processing speed measured in tokens per second | Performance |
 
 ---
 
